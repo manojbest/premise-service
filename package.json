@@ -1,0 +1,18 @@
+{
+  "name": "premise-service",
+  "version": "1.0.0",
+  "description": "premise service",
+  "main": "premiseApp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Manoj Bandara",
+  "license": "ISC",
+  "dependencies": {
+    "bunyan": "^1.8.5",
+    "config": "^1.24.0",
+    "fs": "0.0.1-security",
+    "hapi": "^16.0.1",
+    "path": "^0.12.7"
+  }
+}
