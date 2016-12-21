@@ -8,6 +8,10 @@
   },
   "author": "Manoj Bandara",
   "license": "ISC",
+  "main": "premiseapp.js",
+  "scripts": {
+    "start": "node premiseapp.js"
+  },
   "dependencies": {
     "bluebird": "^3.4.6",
     "bunyan": "^1.8.5",
