@@ -1,16 +1,16 @@
 {
-  "name": "premise-service",
+  "name": "uk-code-service",
   "version": "1.0.0",
-  "description": "premise service",
-  "main": "premiseApp.js",
+  "description": "UK Postcode Service",
+  "main": "uk-code-service.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Manoj Bandara",
   "license": "ISC",
-  "main": "premiseapp.js",
+  "main": "uk-code-service.js",
   "scripts": {
-    "start": "node premiseapp.js"
+    "start": "node uk-code-service.js"
   },
   "dependencies": {
     "bluebird": "^3.4.6",

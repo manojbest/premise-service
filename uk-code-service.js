@@ -1,7 +1,7 @@
 
 const ServerSetup = require('./lib/serversetup');
 const Logger = require('./lib/utils/logger');
-const serverSetup = new ServerSetup("PremiseApp");
+const serverSetup = new ServerSetup("uk-code-service");
 
 const server = serverSetup.appStartUp();
 const logger = Logger.getLogger();
