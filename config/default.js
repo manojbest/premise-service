@@ -2,8 +2,8 @@
 
 module.exports = {
 
-    httpHost: 'localhost',
-    httpPort: 8000,
+    httpHost: '0.0.0.0',
+    httpPort: 8080,
     numWorkers: 2,
     maxDeadWorkerSize: 10,
     maxSockets: 100,
@@ -20,3 +20,5 @@ module.exports = {
     postcodeValidationLookupUri:'http://ws.postcoder.com/pcw/PCW45-12345-12345-1234X/codepoint/validatepostcode/{address-fragment}?format=json',
 
 };
+
+/*http://stackoverflow.com/questions/36763171/how-spring-sidecar-works-with-docker*/
