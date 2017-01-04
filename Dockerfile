@@ -4,6 +4,9 @@ FROM node
 RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
+# Create log directory
+RUN mkdir -p /usr/src/log
+
 # Install app dependencies
 COPY package.json /usr/src/app/
 RUN npm install
