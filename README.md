@@ -9,8 +9,6 @@ For more information https://github.com/manojbest/uk-code-service
 
 
 ```sh
-$ npm install gulp-install
-$ npm install bower
 $ cd uk-code-service
 $ npm install
 $ bower install
