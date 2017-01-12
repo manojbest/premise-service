@@ -11,5 +11,4 @@ For more information https://github.com/manojbest/uk-code-service
 ```sh
 $ cd uk-code-service
 $ npm install
-$ bower install
 $ npm start
